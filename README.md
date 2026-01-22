@@ -14,13 +14,13 @@ dataset_test/
   │   └─ mymodel-output.png
   └─ prompt.csv                      # 每行对应一个测试样例的提示信息（见下）
 ```
-prompt.csv fields:
+prompt.csv fields: \
 editing_prompt,reference_phenomenon
 
 ### 测评方式
-首先使用qw_checklist_test.py生成checklist
-其次使用qw_vlm_test.py生成score
+首先使用qw_checklist_test.py生成checklist \
+其次使用qw_vlm_test.py生成score \
 
 ### 结果
-checklist结果保存在checklist.json
-score结果保存在score.json
+checklist结果保存在checklist.json \
+score结果保存在score.json \
