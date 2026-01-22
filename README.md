@@ -23,4 +23,4 @@ editing_prompt,reference_phenomenon
 
 ### 结果
 checklist结果保存在checklist.json \
-score结果保存在score.json \
+score结果保存在score-\{model\}.json \
