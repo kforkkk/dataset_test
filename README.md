@@ -1,11 +1,11 @@
 ## 使用说明
 
 ### 数据格式
---dataset_test
-  --test1
-    --input.png
-    --gt.png
-    --\{model\}-output.png
+--dataset_test \
+  --test1 \
+    --input.png \
+    --gt.png \
+    --\{model\}-output.png \
 prompt.csv fields:
 editing_prompt,reference_phenomenon
 
