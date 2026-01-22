@@ -1,11 +1,19 @@
 ## 使用说明
 
 ### 数据格式
---dataset_test \
-\t --test1 \
-\t \t--input.png \
-\t \t--gt.png \
-\t \t--\{model\}-output.png \
+```
+dataset_test/
+  ├─ test1/
+  │   ├─ input.png                  # 输入图像（原图或需要编辑的图）
+  │   ├─ gt.png                     # 目标参考图（ground truth，可选）
+  │   ├─ modelA-output.png          # 模型输出：命名格式为 {model_name}-output.png
+  │   └─ modelB-output.png          #（可以有多个不同模型的输出）
+  ├─ test2/
+  │   ├─ input.png
+  │   ├─ gt.png
+  │   └─ mymodel-output.png
+  └─ prompt.csv                      # 每行对应一个测试样例的提示信息（见下）
+```
 prompt.csv fields:
 editing_prompt,reference_phenomenon
 
