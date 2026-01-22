@@ -2,10 +2,10 @@
 
 ### 数据格式
 --dataset_test \
-  --test1 \
-    --input.png \
-    --gt.png \
-    --\{model\}-output.png \
+\t --test1 \
+\t \t--input.png \
+\t \t--gt.png \
+\t \t--\{model\}-output.png \
 prompt.csv fields:
 editing_prompt,reference_phenomenon
 
