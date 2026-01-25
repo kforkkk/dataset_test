@@ -5,6 +5,7 @@ import base64
 import argparse
 import pandas as pd
 import json
+import re
 
 
 #  编码函数： 将本地文件转换为 Base64 编码的字符串
@@ -79,7 +80,7 @@ def generate_checklist(prompt, model,editing_prompt, reference_phenomenon,input_
     
     return answer_content
 
-
+pattern = r'data_(\d+)'#每个输入以及gt图片的文件夹
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate checklist for image editing evaluation.')
     parser.add_argument('--dataset-dir-path', type=str, required=True, help='Path to the input and ground truth image')
@@ -92,16 +93,32 @@ if __name__ == "__main__":
     check_lists = {}
     
     for i,item in enumerate(os.listdir(dataset_dir)):
-        if os.path.isdir(os.path.join(dataset_dir,item)):
+
+        if os.path.isdir(os.path.join(dataset_dir,item)) and item.startswith("data_"):
             print(f"processing {item}")
-            index = int(item[-1])
+            vid = re.match(pattern, item).group(1)
+            print("vid:",vid)
+            found = 0
+            for i,index in enumerate(prompt_data["vid"]):
+                print("index:",index)
+                if int(index) == int(vid):
+                    editing_prompt = prompt_data.iloc[i]["editing_prompt"]
+                    reference_phenomenon = prompt_data.iloc[i]["reference_phenomenon"]
+                    # print(f"editing prompt: {editing_prompt[:15]}")
+                    # print(f"reference phenomenon: {reference_phenomenon[:15]}")
+                    found = 1
+                    break
+            if found == 0:
+                print("not found")
+                continue          
+            
             test_dir = os.path.join(dataset_dir, f"{item}")
             input_image = encode_image(os.path.join(test_dir, "input.png"))
             gt_image = encode_image(os.path.join(test_dir, "gt.png"))
-            editing_prompt = prompt_data.iloc[index-1]["editing_prompt"]
-            print(f"editing prompt: {editing_prompt[:15]}")
-            reference_phenomenon = prompt_data.iloc[index-1]["reference_phenomenon"]
-            print(f"reference phenomenon: {reference_phenomenon[:15]}")
+            
+            
+            
+            
             check_list = generate_checklist(prompt, args.model_name,editing_prompt, reference_phenomenon,input_image, gt_image)
             check_lists[f"{item}"] = check_list
     json.dump(check_lists, open(os.path.join(dataset_dir,args.output_file), "w"), indent=4)

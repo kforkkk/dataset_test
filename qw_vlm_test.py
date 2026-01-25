@@ -4,6 +4,7 @@ import base64
 import argparse
 import pandas as pd
 import json
+import re
 
 #  编码函数： 将本地文件转换为 Base64 编码的字符串
 def encode_image(image_path):
@@ -88,7 +89,7 @@ def vlm_judge(question_description, gt_phenomenon, edited_image, gt_image, check
     
     return score_content
 
-
+pattern = r'data_(\d+)'
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate checklist for image editing evaluation.')
     parser.add_argument('--dataset-dir-path', type=str, required=True, help='Path to the input and ground truth image')
@@ -102,12 +103,23 @@ if __name__ == "__main__":
     scores = {}
     check_lists = json.load(open(os.path.join(dataset_dir, "checklist.json"), "r"))
     for i,item in enumerate(os.listdir(dataset_dir)):
-        if os.path.isdir(os.path.join(dataset_dir,item)):
+        if os.path.isdir(os.path.join(dataset_dir,item)) and item.startswith("data_"):
             print(f"processing {item}")
             #获取文本信息
-            index = int(item[-1])
-            question_description = prompt_data.iloc[index-1]['editing_prompt']
-            gt_phenomenon = prompt_data.iloc[index-1]['reference_phenomenon']
+            found  = 0
+            vid = re.search(pattern, item).group(1)
+            for i,index in enumerate(prompt_data["vid"]):
+                if int(index) == int(vid):
+                    found = 1
+                    question_description = prompt_data.iloc[i]['editing_prompt']
+                    gt_phenomenon = prompt_data.iloc[i]['reference_phenomenon']
+                    print("question description:",question_description[:15])
+                    print("gt phenomenon:",gt_phenomenon[:15])
+                    break
+
+            if found == 0:
+                print("no found error")
+                continue
             test_dir = os.path.join(dataset_dir, f"{item}")
             #获取图片信息
             gt_image = encode_image(os.path.join(test_dir, "gt.png"))
