@@ -5,17 +5,21 @@ import argparse
 import pandas as pd
 import json
 import re
+from dotenv import load_dotenv  # 导入dotenv库
 
+# 加载环境变量
+load_dotenv("/hsk/.env")
 
 #  编码函数： 将本地文件转换为 Base64 编码的字符串
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
+
 # 初始化OpenAI客户端
 client = OpenAI(
-    api_key = "sk-tkQC6suw159dxQoCkSrf2pTmSbIBawo7pP15FQN7d5vfTCxO",
-    base_url="https://api.agicto.cn/v1"
+    api_key = os.getenv("AGICTO_UR"),
+    base_url = os.getenv("AGICTO_KEY"),
 )
 
 
