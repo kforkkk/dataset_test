@@ -18,10 +18,9 @@ def encode_image(image_path):
 
 # 初始化OpenAI客户端
 client = OpenAI(
-    api_key = os.getenv("AGICTO_UR"),
+    api_key = os.getenv("AGICTO_URL"),
     base_url = os.getenv("AGICTO_KEY"),
 )
-
 
 prompt_1 = """ 
 Use the input image and the editing prompt to create the checklist used to judge the image edited on it(mandatory).  

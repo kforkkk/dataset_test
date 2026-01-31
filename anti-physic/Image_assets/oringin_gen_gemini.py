@@ -3,9 +3,11 @@ import json
 import base64
 import os
 import time
+from dotenv import load_dotenv
+load_dotenv("/hsk/.env")
 
 
-def generate_image_with_gemini(prompt, host="yinli.one", api_key="", output_filename="generated_image.png", aspect_ratio="1:1"):
+def generate_image_with_gemini(prompt, host="yinli.one", api_key=os.getenv("YINLI_KEY"), output_filename="generated_image.png", aspect_ratio="1:1"):
     """
     使用Gemini API生成图像
     

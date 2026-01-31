@@ -3,10 +3,12 @@ import json
 import re
 from openai import OpenAI
 from tqdm import tqdm
+from dotenv import load_dotenv
+load_dotenv("/hsk/.env")
 
 client = OpenAI(
-    api_key = "sk-b09c374d8bd2478fa94697ae79dad1bd",
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+    api_key = os.getenv("QWEN_URL"),
+    base_url=os.getenv("QWEN_KEY")
 )
 
 def enhance_formal_scene(formal_scene):
