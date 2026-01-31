@@ -5,7 +5,7 @@ import os
 import time
 
 
-def generate_image_with_gemini(prompt, host="yinli.one", api_key="sk-o2SengxxA7XcCIu5QH3oNu3ri9eRyN09UGItnN0Xm7pQZuWc", output_filename="generated_image.png", aspect_ratio="1:1"):
+def generate_image_with_gemini(prompt, host="yinli.one", api_key="", output_filename="generated_image.png", aspect_ratio="1:1"):
     """
     使用Gemini API生成图像
     
