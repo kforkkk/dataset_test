@@ -14,12 +14,10 @@ load_dotenv("/hsk/.env")
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
-
-
 # 初始化OpenAI客户端
 client = OpenAI(
-    api_key = os.getenv("AGICTO_URL"),
-    base_url = os.getenv("AGICTO_KEY"),
+    api_key = os.getenv("AGICTO_KEY"),
+    base_url = os.getenv("AGICTO_URL"),
 )
 
 prompt_1 = """ 
@@ -77,7 +75,7 @@ Score each rubric from 1–4 (1=absent/contradictory, 2=weak/partly wrong, 3=mos
 a) prompt consistency — follows instructions: correct setup and correct experiment execution. 
 b) expected phenomenon — expected physical/chemical outcome is present according to the EXPECTED PHENOMENA(check the image in detail).
 c) involved objects coherence — whether the involved objects are the same object between the input image and the edited image beside some changes according to the EXPECTED PHENOMENA. 
-d) background immutability — background objects remain intact/unchanged unless changes are explicitly expected. 
+d) background immutability — background objects remain intact/unchanged unless changes are explicitly expected,which should be continious with the involved objects. 
 
 Each rating must be supported with clear justification, drawing on specific edited image area and, when provided, the corresponding checklist items.
 """
