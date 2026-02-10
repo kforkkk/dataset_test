@@ -1,0 +1,690 @@
+[
+  {
+    "id": 1,
+    "ori_path": "ori/1.jpg",
+    "ref_path": "ref/1.jpg",
+    "instruction": "Add a weight to the left side of the balance scale",
+    "explain": "The left side becomes two weights, and the balance scale tilts to the left",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 2,
+    "ori_path": "ori/2.png",
+    "ref_path": "ref/2.png",
+    "instruction": "Place a small iron block with consistent weight on each spring. The compression of the spring increases progressively from left to right.",
+    "explain": "The compression of the spring increases progressively from left to right.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 3,
+    "ori_path": "ori/3.png",
+    "ref_path": "ref/3.png",
+    "instruction": "Place a helium-filled balloon in the room.",
+    "explain": "The balloon should float in the air",
+    "transition_type": "correction"
+  },
+  {
+    "id": 4,
+    "ori_path": "ori/4.png",
+    "ref_path": "ref/4.png",
+    "instruction": "Place the person's right hand on a static electricity ball and make his hair stand up on end.",
+    "explain": "This person's hair should stand up",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 5,
+    "ori_path": "ori/5.png",
+    "ref_path": "ref/5.png",
+    "instruction": "Place a small wooden block in the water tank.",
+    "explain": "The small wooden block floats on the water surface",
+    "transition_type": "correction"
+  },
+  {
+    "id": 6,
+    "ori_path": "ori/6.jpg",
+    "ref_path": "ref/6.jpg",
+    "instruction": "Place a small iron block in the water tank",
+    "explain": "The small iron block sinks to the bottom of the water tank",
+    "transition_type": "correction"
+  },
+  {
+    "id": 7,
+    "ori_path": "ori/7.png",
+    "ref_path": "ref/7.png",
+    "instruction": "Pour a little water onto this pile of dry ice",
+    "explain": "A large amount of white fog will appear",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 8,
+    "ori_path": "ori/8.png",
+    "ref_path": "ref/8.png",
+    "instruction": "Adjust the yellow oil so that it floats on top of the water instead of sinking to the bottom.",
+    "explain": "The oil should float on top of the water.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 9,
+    "ori_path": "ori/9.jpg",
+    "ref_path": "ref/9.jpg",
+    "instruction": "Pour some alcohol into the water cup.",
+    "explain": "The water level rises, but the color does not change.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 10,
+    "ori_path": "ori/10.png",
+    "ref_path": "ref/10.png",
+    "instruction": "Correct the appearance of the pencil in the water to show the 'broken' effect caused by light refraction at the water's surface.",
+    "explain": "The pencil should appear 'broken' due to different refractive indices",
+    "transition_type": "correction"
+  },
+  {
+    "id": 11,
+    "ori_path": "ori/11.jpg",
+    "ref_path": "ref/11.jpg",
+    "instruction": "Place this glass of water in the cold storage overnight.",
+    "explain": "The water will freeze.",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 12,
+    "ori_path": "ori/12.png",
+    "ref_path": "ref/12.png",
+    "instruction": "Increase the air pressure to two standard atmospheres.",
+    "explain": "The water will no longer boil",
+    "transition_type": "correction"
+  },
+  {
+    "id": 13,
+    "ori_path": "ori/13.png",
+    "ref_path": "ref/13.png",
+    "instruction": "Pour some water into the glass filled with oil and show the final settled state.",
+    "explain": "The water should settle at the bottom",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 14,
+    "ori_path": "ori/14.png",
+    "ref_path": "ref/14.png",
+    "instruction": "Show the fogging effect on the glasses lenses that occurs when the warm indoor temperature suddenly drops.",
+    "explain": "Fogging occurs on the lenses",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 15,
+    "ori_path": "ori/15.png",
+    "ref_path": "ref/15.png",
+    "instruction": "Change the south direction in the image to the right side by rotating the compass dial and needle so the 'S' mark and the arrow point to the right.",
+    "explain": "The compass arrow should point to the right",
+    "transition_type": "correction"
+  },
+  {
+    "id": 16,
+    "ori_path": "ori/16.png",
+    "ref_path": "ref/16.png",
+    "instruction": "Sprinkle iron filings on the surface to observe the magnetic field distribution.",
+    "explain": "Iron filing distribution of a U-shaped magnet.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 17,
+    "ori_path": "ori/17.png",
+    "ref_path": "ref/17.png",
+    "instruction": "Rearrange the iron filings on the surface so they align with the magnetic field lines of the bar magnet, showing high density at the poles and curved paths between them.",
+    "explain": "Iron filings distribution of a bar magnet",
+    "transition_type": "correction"
+  },
+  {
+    "id": 18,
+    "ori_path": "ori/18.png",
+    "ref_path": "ref/18.png",
+    "instruction": "Place a cup of water on the table in the image and ensure it has a symmetrical reflection in the mirror.",
+    "explain": "The cup should also have a symmetrical reflection in the mirror.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 19,
+    "ori_path": "ori/19.png",
+    "ref_path": "ref/19.png",
+    "instruction": "Change the water to high-concentration saltwater so that the egg floats to the top.",
+    "explain": "The egg should float",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 20,
+    "ori_path": "ori/20.png",
+    "ref_path": "ref/20.png",
+    "instruction": "Remove the kitten from the screen",
+    "explain": "The kitten in the mirror should also be removed accordingly",
+    "transition_type": "correction"
+  },
+  {
+    "id": 21,
+    "ori_path": "ori/21.png",
+    "ref_path": "ref/21.png",
+    "instruction": "Modify the image to show the thermal effect of a high electric current: make the exposed copper strands glow with heat (incandescence) and show the insulation starting to melt or smoke at the contact points.",
+    "explain": "The copper wire heats up due to the current",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 22,
+    "ori_path": "ori/22.png",
+    "ref_path": "ref/22.png",
+    "instruction": "Place a pickup truck to the right of the house and ensure its reflection is visible on the surface of the lake.",
+    "explain": "There should be a reflection of the pickup truck on the surface of the lake",
+    "transition_type": "correction"
+  },
+  {
+    "id": 23,
+    "ori_path": "ori/23.png",
+    "ref_path": "ref/23.png",
+    "instruction": "Make the mirror fog up as if someone just finished a hot shower in the bathroom.",
+    "explain": "The mirror fogs up",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 24,
+    "ori_path": "ori/24.png",
+    "ref_path": "ref/24.png",
+    "instruction": "Bathroom mirror after a cold shower",
+    "explain": "The mirror remains unchanged",
+    "transition_type": "no_visual_change"
+  },
+  {
+    "id": 25,
+    "ori_path": "ori/25.png",
+    "ref_path": "ref/25.png",
+    "instruction": "Increase the pressure in this room by 20 atmospheres.",
+    "explain": "No change to the water bottle.",
+    "transition_type": "no_visual_change"
+  },
+  {
+    "id": 26,
+    "ori_path": "ori/26.png",
+    "ref_path": "ref/26.png",
+    "instruction": "Increase the pressure in this room by 20 atmospheres.",
+    "explain": "The water bottle gets crushed due to the impact of the atmospheric pressure.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 27,
+    "ori_path": "ori/27.png",
+    "ref_path": "ref/27.png",
+    "instruction": "Remove the iron block",
+    "explain": "The spring elongates",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 28,
+    "ori_path": "ori/28.png",
+    "ref_path": "ref/28.png",
+    "instruction": "Show a beam of white light entering the left side of the prism and dispersing into a rainbow spectrum as it exits the right side.",
+    "explain": "The light undergoes dispersion phenomena",
+    "transition_type": "correction"
+  },
+  {
+    "id": 29,
+    "ori_path": "ori/29.png",
+    "ref_path": "ref/29.png",
+    "instruction": "Draw the state of the pendulum at the highest point on the left side, ensuring it is perfectly symmetrical to the position shown on the right side in the reference image.",
+    "explain": "The ball symmetrically appears at the position on the left side",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 30,
+    "ori_path": "ori/30.png",
+    "ref_path": "ref/30.png",
+    "instruction": "For a voltmeter connected to piezoelectric materials, demonstrate the voltage change after applying pressure by moving the needle to a higher value while the crystal is being pressed.",
+    "explain": "The voltage should increase.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 31,
+    "ori_path": "ori/31.png",
+    "ref_path": "ref/31.png",
+    "instruction": "Draw the pattern of double-slit interference on the whiteboard on the right, replacing the two simple bars with a series of alternating bright and dark fringes.",
+    "explain": "A pattern of alternating bright and dark fringes as displayed on the detection screen is formed.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 32,
+    "ori_path": "ori/32.png",
+    "ref_path": "ref/32.png",
+    "instruction": "Change the experimental setup to red light single-slit diffraction: modify the light to red, change the board to a single slit, and update the screen pattern to show a broad central maximum with narrow side fringes.",
+    "explain": "The board transforms into a single slit, and the image displays a broad center with narrow sides",
+    "transition_type": "correction"
+  },
+  {
+    "id": 33,
+    "ori_path": "ori/33.png",
+    "ref_path": "ref/33.png",
+    "instruction": "Change the resistance reading on the tester's display to 0.00 to reflect the state of the material after it has been cooled to its critical temperature.",
+    "explain": "The resistance becomes 0",
+    "transition_type": "correction"
+  },
+  {
+    "id": 34,
+    "ori_path": "ori/34.png",
+    "ref_path": "ref/34.png",
+    "instruction": "Modify the image to show the milliohmmeter reading increasing as the copper wire it is measuring is heated by a heat gun.",
+    "explain": "The resistance should increase.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 35,
+    "ori_path": "ori/35.png",
+    "ref_path": "ref/35.png",
+    "instruction": "Change the small ball hanging on the right in the image to a state of being negatively charged, causing it to tilt towards the far left.",
+    "explain": "The ball becomes tilted towards the far left.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 36,
+    "ori_path": "ori/36.png",
+    "ref_path": "ref/36.png",
+    "instruction": "Place a paperclip in a cup of water to demonstrate the effect of surface tension.",
+    "explain": "The paperclip floats on the water surface.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 37,
+    "ori_path": "ori/37.png",
+    "ref_path": "ref/37.png",
+    "instruction": "Show the red liquid rising into the clear pipe as a result of thermal expansion after heating the bottle.",
+    "explain": "The red liquid level in the pipe rises",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 38,
+    "ori_path": "ori/38.png",
+    "ref_path": "ref/38.png",
+    "instruction": "Place a silk-rubbed glass rod near the small bits of paper on the table, showing some of the small bits of paper getting attracted to the glass rod.",
+    "explain": "Some of the small bits of paper get attracted to the glass rod.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 39,
+    "ori_path": "ori/39.png",
+    "ref_path": "ref/39.png",
+    "instruction": "Modify the pendant to show it swinging towards the left front (the windshield) as a result of sudden braking, ensuring the liquid inside also tilts accordingly.",
+    "explain": "The pendant tilts towards the left front.",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 40,
+    "ori_path": "ori/40.png",
+    "ref_path": "ref/40.png",
+    "instruction": "Modify the pendant hanging from the rearview mirror to tilt towards the rear-right direction, reflecting the effect of the car suddenly accelerating.",
+    "explain": "The pendant tilts towards the rear-right direction",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 41,
+    "ori_path": "ori/41.png",
+    "ref_path": "ref/41.png",
+    "instruction": "Draw the light reflected by the upper mirror, ensuring it is emitted towards the lower left.",
+    "explain": "The light is emitted towards the lower left.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 42,
+    "ori_path": "ori/42.png",
+    "ref_path": "ref/42.png",
+    "instruction": "Press the switch in the picture",
+    "explain": "Two small light bulbs light up",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 43,
+    "ori_path": "ori/43.png",
+    "ref_path": "ref/43.png",
+    "instruction": "Disconnect the rightmost red wire.",
+    "explain": "The small light bulb at the bottom right lights up.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 44,
+    "ori_path": "ori/44.png",
+    "ref_path": "ref/44.png",
+    "instruction": "Modify the scene to show a warm and humid indoor glass window during winter by adding fog and condensation to the glass panes.",
+    "explain": "Foggy on the glass",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 45,
+    "ori_path": "ori/45.png",
+    "ref_path": "ref/45.png",
+    "instruction": "Correct the indicated height of the erroneous thermometer in the image so that the red liquid in the thermometer on the far left is at the highest level, with levels decreasing to the right.",
+    "explain": "The red liquid in the thermometer on the far left is at the highest level.",
+    "transition_type": "correction"
+  },
+  {
+    "id": 46,
+    "ori_path": "ori/46.png",
+    "ref_path": "ref/46.png",
+    "instruction": "Increase the atmospheric pressure outside the balloon.",
+    "explain": "The balloon becomes smaller.",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 47,
+    "ori_path": "ori/47.png",
+    "ref_path": "ref/47.png",
+    "instruction": "Show the balloon after the external atmospheric pressure is reduced.",
+    "explain": "The balloon expands",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 48,
+    "ori_path": "ori/48.png",
+    "ref_path": "ref/48.png",
+    "instruction": "Change the thermometer reading to 0 degrees Celsius to correctly measure the temperature of an ice-water mixture.",
+    "explain": "Adjust the temperature to 0 degrees Celsius",
+    "transition_type": "correction"
+  },
+  {
+    "id": 49,
+    "ori_path": "ori/49.png",
+    "ref_path": "ref/49.png",
+    "instruction": "Change the liquid level height to show the effect of a temperature decrease.",
+    "explain": "The red liquid level drops",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 50,
+    "ori_path": "ori/50.png",
+    "ref_path": "ref/50.png",
+    "instruction": "Remove the weights from the pan balance",
+    "explain": "The white plastic object on top is removed, and the display shows zero",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 51,
+    "ori_path": "ori/51.png",
+    "ref_path": "ref/51.png",
+    "instruction": "Add concentric ripples spreading outward on the water surface from a central impact point, ensuring they realistically distort the mountain reflections.",
+    "explain": "Concentric ripples spread outward on the water surface",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 52,
+    "ori_path": "ori/52.png",
+    "ref_path": "ref/52.png",
+    "instruction": "Release the hand pressing on the ball",
+    "explain": "The spring elongates, and the ball rises",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 53,
+    "ori_path": "ori/53.png",
+    "ref_path": "ref/53.png",
+    "instruction": "Ignite the match where the sunlight is focused, showing a small flame, smoke, and charring on the match head.",
+    "explain": "The match ignites",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 54,
+    "ori_path": "ori/54.png",
+    "ref_path": "ref/54.png",
+    "instruction": "Remove the small iron rod in the picture",
+    "explain": "The water stream returns to normal vertical downward flow",
+    "transition_type": "correction"
+  },
+  {
+    "id": 55,
+    "ori_path": "ori/55.png",
+    "ref_path": "ref/55.png",
+    "instruction": "Move the car on the rough incline back up onto the slope to show that it is still descending, while keeping the car on the smooth incline at the bottom.",
+    "explain": "The car on the rough incline is still on the slope",
+    "transition_type": "correction"
+  },
+  {
+    "id": 56,
+    "ori_path": "ori/56.png",
+    "ref_path": "ref/56.png",
+    "instruction": "Adjust the hydrometer to float higher in the test tube after salt water is added, so that the liquid level aligns with the 75 mark on the scale instead of the 95 mark.",
+    "explain": "The hydrometer floats higher, showing a higher reading on the scale",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 57,
+    "ori_path": "ori/57.png",
+    "ref_path": "ref/57.png",
+    "instruction": "Change the system to a functional movable pulley where the hand pulls the rope upward to lift the bucket.",
+    "explain": "The pulley becomes a movable pulley, and the direction of the pull is upward",
+    "transition_type": "correction"
+  },
+  {
+    "id": 58,
+    "ori_path": "ori/58.png",
+    "ref_path": "ref/58.png",
+    "instruction": "Change the value to the result of reversing the diode direction",
+    "explain": "The ammeter shows zero current",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 59,
+    "ori_path": "ori/59.png",
+    "ref_path": "ref/59.png",
+    "instruction": "Change the image to look as if it were photographed through a blue lens filter. The red flower should appear very dark or almost black due to the filter absorbing the red light.",
+    "explain": "The red flower appears very dark or almost black through the blue filter",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 60,
+    "ori_path": "ori/60.png",
+    "ref_path": "ref/60.png",
+    "instruction": "Continuously heat a sealed gas tank, and show the change in pressure gauge by moving the needle from its current position to a much higher value on the dial.",
+    "explain": "The gauge needle should rise",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 61,
+    "ori_path": "ori/61.png",
+    "ref_path": "ref/61.png",
+    "instruction": "Only keep the ray at the critical angle",
+    "explain": "Only the red beam is retained, and the black beam is removed",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 62,
+    "ori_path": "ori/62.png",
+    "ref_path": "ref/62.png",
+    "instruction": "Pump the bicycle tire to a higher pressure",
+    "explain": "The tire becomes more inflated, and the contact patch with the ground becomes smaller",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 63,
+    "ori_path": "ori/63.png",
+    "ref_path": "ref/63.png",
+    "instruction": "After 1 minute",
+    "explain": "The cube on metal shows noticeably more melting",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 64,
+    "ori_path": "ori/64.png",
+    "ref_path": "ref/64.png",
+    "instruction": "Change the image to show the effect of photographing the green leaves through a red lens filter. The leaves should appear very dark or almost black as a result of the color filtering.",
+    "explain": "The leaf appears very dark or almost black through the red filter",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 65,
+    "ori_path": "ori/65.png",
+    "ref_path": "ref/65.png",
+    "instruction": "Modify the scene so that the blue ink in the steaming hot water (left) is widely dispersed into a faint cloud, while the ink in the cold water (right) remains in concentrated, dark trails, reflecting the effect of temperature on diffusion.",
+    "explain": "The ink disperses much faster in the hot water, forming a lighter cloud",
+    "transition_type": "correction"
+  },
+  {
+    "id": 66,
+    "ori_path": "ori/66.png",
+    "ref_path": "ref/66.png",
+    "instruction": "Rotate the polarizing filter 90° before the LCD screen",
+    "explain": "The display becomes black due to crossed polarization",
+    "transition_type": "correction"
+  },
+  {
+    "id": 67,
+    "ori_path": "ori/67.png",
+    "ref_path": "ref/67.png",
+    "instruction": "Continue to pour some liquid into the left glass tube of the connected vessels, ensuring the liquid levels in both tubes remain at the same height.",
+    "explain": "The liquid levels in both glass tubes should always remain at the same height",
+    "transition_type": "correction"
+  },
+  {
+    "id": 68,
+    "ori_path": "ori/68.png",
+    "ref_path": "ref/68.png",
+    "instruction": "Rotate the hair dryer to point straight up and place a ping pong ball in the airstream so it hovers stably due to the Bernoulli effect.",
+    "explain": "The ball hovers stably in the vertical airflow due to the Bernoulli effect",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 69,
+    "ori_path": "ori/69.png",
+    "ref_path": "ref/69.png",
+    "instruction": "Show the level after the ice melts",
+    "explain": "The water level remains the same after complete melting",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 70,
+    "ori_path": "ori/70.png",
+    "ref_path": "ref/70.png",
+    "instruction": "Change the environment of the chamber to a vacuum and show the resulting physical effect on the water.",
+    "explain": "The water boils at room temperature under reduced pressure",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 71,
+    "ori_path": "ori/71.png",
+    "ref_path": "ref/71.png",
+    "instruction": "Pour oil with a refractive index similar to that of the glass rod into the cup, ensuring the submerged part of the rod becomes invisible due to index matching.",
+    "explain": "The rod becomes nearly invisible due to minimal refraction",
+    "transition_type": "correction"
+  },
+  {
+    "id": 72,
+    "ori_path": "ori/72.png",
+    "ref_path": "ref/72.png",
+    "instruction": "Draw the highest point the ball can reach on the right",
+    "explain": "The ball rises to the same height on the right, showing energy conservation",
+    "transition_type": "correction"
+  },
+  {
+    "id": 73,
+    "ori_path": "ori/73.png",
+    "ref_path": "ref/73.png",
+    "instruction": "Show the change after the rightmost ball of the Newton's cradle falls",
+    "explain": "The leftmost ball is launched, and the other balls remain stationary",
+    "transition_type": "temporal_dynamics"
+  },
+  {
+    "id": 74,
+    "ori_path": "ori/74.png",
+    "ref_path": "ref/74.png",
+    "instruction": "Pull the A4 paper sharply and observe the cup",
+    "explain": "The cup remains upright due to inertia",
+    "transition_type": "intervention"
+  },
+  {
+    "id": 75,
+    "ori_path": "ori/75.png",
+    "ref_path": "ref/75.png",
+    "instruction": "Move the rhino forward so that its horn comes into direct contact with the jeep's side, and capture the scene at the instant this contact occurs.",
+    "explain": "The rhino has advanced so that its horn firmly contacts the jeep’s front-side body panel. A burst of dust rises around the contact point and from beneath the rhino and the jeep’s tires, indicating a sudden, forceful impact. The jeep remains on all its wheels and largely level, though a slight wobble or tilt is acceptable. A small, immediate indentation at the point of contact is visible, but there is no catastrophic damage, detachment of parts, or shattered glass—capturing the precise instant the horn meets the panel.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 76,
+    "ori_path": "ori/76.png",
+    "ref_path": "ref/76.png",
+    "instruction": "Continue the meteor's trajectory until it makes contact with the lunar surface.",
+    "explain": "Propagate the meteor along its current path until it impacts the lunar regolith at a shallow, forward-biased angle consistent with the incoming trajectory. At the moment of contact, the meteor’s motion ceases and a small, fresh crater forms at the impact site. A localized ejecta fountain of dust and rock rises roughly radially from the crater, with particles following ballistic arcs in the Moon’s low gravity. The brightest region is at the impact point due to transient heating/vaporization of material; there are no flames or atmospheric shock effects. The surrounding lunar terrain remains otherwise unchanged, and the background (Earth and space) is unaffected aside from the new impact feature.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 77,
+    "ori_path": "ori/77.png",
+    "ref_path": "ref/77.png",
+    "instruction": "Introduce a strong gust of wind that pushes upward and outward against the hat and hair.",
+    "explain": "A sudden, strong upward gust lifts the straw fedora a short distance (about 10–20 cm) above the head, breaking contact. The hat tilts slightly with its underside visible, indicating upward motion, and remains close to its original position (not yet carried away). The hair is driven upward and outward from the scalp, fanning and spiking in the wind’s direction. Subtle motion cues—like mild edge blur on the hat brim and hair tips and a faint shadow beneath the hat—reinforce the instant the gust initiates the lift. The rest of the scene remains unchanged aside from natural wind effects.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 78,
+    "ori_path": "ori/78.png",
+    "ref_path": "ref/78.png",
+    "instruction": "Open the window and let the air move freely across the table.",
+    "explain": "After opening the nearby window, a strong cross-breeze sweeps across the table. The house of cards immediately disintegrates: many individual cards are lifted into the air, flipping and tilting mid-flight, while others slide or lie flat on the tabletop. The scene captures a dynamic moment of wind-driven chaos, with scattered cards both airborne and resting on the surface; motion blur or subtle wind streaks are expected.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 79,
+    "ori_path": "ori/79.png",
+    "ref_path": "ref/79.png",
+    "instruction": "Lightly jostle the bookshelf so that it briefly shakes.",
+    "explain": "Apply a gentle, transient vibration to the scene. Indicate the shake with a slight directional motion blur or micro double-edge ghosting along the bookshelf edges and the blue book’s outline. Keep the blue book in its original position and closed, with no pages fanning and no books falling or shifting. The blur should be subtle and uniform across the shelf and nearby books, consistent with a brief, light jostle (e.g., short exposure motion blur), while lighting and composition remain unchanged.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 80,
+    "ori_path": "ori/80.png",
+    "ref_path": "ref/80.png",
+    "instruction": "Propel the yellow paintball toward the shirt and allow it to make contact with the fabric.",
+    "explain": "The yellow paintball travels from left to right, strikes the blue shirt at chest level, and its gelatin shell ruptures on impact. Bright yellow paint splashes outward in a starburst pattern with radial streaks and droplets, wetting the fabric around the impact point. The shirt shows a fresh, centralized splat with small satellite droplets and slight local indentation from the hit, capturing the first milliseconds after rupture.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 81,
+    "ori_path": "ori/81.png",
+    "ref_path": "ref/81.png",
+    "instruction": "Grip the tire firmly and apply upward and forward force until the tire is balanced on its edge.",
+    "explain": "The athlete grips the lower tread of the large tire and drives through the legs and hips, applying a combined upward and forward force to tip the tire. The tire is raised off the ground and balanced on one of its edges, leaning forward as it is about to be pushed over. Body posture shows a strong hip hinge with braced core and engaged arms. The background, onlookers, and overall environment remain unchanged, preserving lighting and perspective while highlighting the moment of exertion.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 82,
+    "ori_path": "ori/82.png",
+    "ref_path": "ref/82.png",
+    "instruction": "Introduce a strong burst of air across the road, allowing it to interact with loose objects in its path.",
+    "explain": "A brief, strong gust of wind sweeps across the dirt road, imparting force to loose materials. The tumbleweed, previously at rest, is displaced and rolls down the road with slight strand motion blur. Fine dust is lifted into small plumes and sheets near the ground, trailing downwind around the tumbleweed. Lighting and overall landscape (cactus, shrubs, mountains, sky) remain unchanged, as fixed objects are not moved by the gust.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 83,
+    "ori_path": "ori/83.png",
+    "ref_path": "ref/83.png",
+    "instruction": "Allow the meteor to continue on its current trajectory until it makes contact with the spaceship's viewport.",
+    "explain": "Advance the scene so the meteoroid continues along the same trajectory and strikes the spaceship’s forward viewport. At first contact, a brilliant white‑orange flash forms where the rock hits, with radiant streaks of glowing ejecta/plasma fanning outward across the glass. Fine radial cracks and scorch marks appear on the canopy around the impact point, and the illumination from the flash lights the surrounding hull. The starfield remains dark; there is no sustained flame in the vacuum—any glow comes from vaporized meteoroid and glass.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 84,
+    "ori_path": "ori/84.png",
+    "ref_path": "ref/84.png",
+    "instruction": "Place the paddle into the water beside the canoe and draw it backward through the water.",
+    "explain": "The paddler places the blade into the water alongside the canoe and pulls it backward (aft) relative to the boat. The water exerts a forward reaction force on the blade, causing the canoe to accelerate gently ahead. Because the stroke is on one side, the canoe may yaw slightly away from the paddling side unless corrected. The calm surface remains largely mirror-like, but a thin V-shaped wake trails behind the canoe, and a disturbed swath with small ripples and mild vortices forms along the paddle’s path. Disturbance is localized around the blade and immediately behind the canoe, with minimal impact on the broader reflective water.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 85,
+    "ori_path": "ori/85.png",
+    "ref_path": "ref/85.png",
+    "instruction": "Allow the suspended droplet to continue its downward motion until it meets the surface below.",
+    "explain": "Show the instant the droplet touches the dry, cracked earth. The droplet flattens slightly on impact, spreading a thin film a few millimeters outward. A few tiny water beads and dust grains may lift and settle nearby, but there is no large crown or rim. The soil directly beneath and immediately around the contact point darkens subtly as the water begins to soak in, preserving the natural texture of the cracks and avoiding any noticeable crater.",
+    "transition_type": "motion"
+  },
+  {
+    "id": 86,
+    "ori_path": "ori/86.png",
+    "ref_path": "ref/86.png",
+    "instruction": "Propel a small-caliber bullet directly through the midpoint of the suspended balloon and observe the immediate aftermath as the projectile exits.",
+    "explain": "A small‑caliber bullet penetrates the balloon at its midpoint. The latex membrane fails and snaps back into red streamers around the tear. The fluid contents, driven by inertia and briefly constrained by surface tension, momentarily retain a rough outline of the original balloon before expanding outward. Under high-speed flash lighting, the dispersing water appears white as it atomizes into fine droplets and thin sheets, forming an irregular halo around the center. The bullet is visible exiting on the far side with slight motion blur, trailing a fine spray of droplets. The black background isolates the rupture and spray dynamics.",
+    "transition_type": "motion"
+  }
+]
